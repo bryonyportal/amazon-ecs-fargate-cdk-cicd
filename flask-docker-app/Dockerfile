@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM public.ecr.aws/docker/library/python:3.10 
 RUN apk add python3 py-pip && \
 python3 -m ensurepip && \
 pip install --upgrade pip && \
